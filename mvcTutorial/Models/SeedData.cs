@@ -44,6 +44,8 @@ namespace mvcTutorial.Models
                         Price = 15.99M
                     }
                 );
+
+                context.SaveChanges();
             }
         }
     }
