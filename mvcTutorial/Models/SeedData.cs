@@ -23,6 +23,7 @@ namespace mvcTutorial.Models
                     new Movie
                     {
                         Title = "Star Wars: A New Hope",
+                        Rating = "PG",
                         ReleaseDate = DateTime.Parse("1977 - 5 - 25"),
                         Genre = "Science Fiction",
                         Price = 15.99M
@@ -31,6 +32,7 @@ namespace mvcTutorial.Models
                     new Movie
                     {
                         Title = "Star Wars: The Empire Strikes Back",
+                        Rating = "PG",
                         ReleaseDate = DateTime.Parse("1980 - 5 - 27"),
                         Genre = "Science Fiction",
                         Price = 19.99M
@@ -39,6 +41,7 @@ namespace mvcTutorial.Models
                     new Movie
                     {
                         Title = "Star Wars: Return of the Jedi",
+                        Rating = "PG",
                         ReleaseDate = DateTime.Parse("1983 - 5 - 25"),
                         Genre = "Science Fiction",
                         Price = 15.99M
